@@ -158,7 +158,8 @@ class SearchController(ApiController):
         plain = request_data.get('plain', None) # Not yet implemented
         language = request_data.get('language', None) # Not yet implemented
         limit = request_data.get('limit', None)
-        offset = request_data.get('offset', None)
+        #offset = request_data.get('offset', None)
+        offset = None
         fields = request_data.get('fields', None) # Not yet implemented
         sort = request_data.get('sort', None)
 
